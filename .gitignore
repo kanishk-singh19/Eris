@@ -1,0 +1,25 @@
+# Challenge datasets provided by the task authors (not redistributed)
+public*/
+data
+dataset/
+
+# Caches, logs, experiment outputs
+cache/
+logs/
+out/
+catboost_info/
+__pycache__/
+*.pyc
+
+# Model weights / tokenizers
+tiny/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Predictions
+submission.csv
+working/
